@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+@CHARSET "UTF-8";
+
+
+	
+	#leftSection {
+	float: left;
+	height: 100%;
+	width: 85%;
+	/* border: black 1px solid; */
+	overflow: auto;
+	 	
+	}
+	
+	#rightSection {;
+	/* 	border: black 1px solid; */ 
+	 	width: 15%;
+	 	height: 100%;
+	 	float:right;
+	}
+	
+#login {
+	background-color: lightGrey;
+	padding: 10px;
+}
+	
+#login UL {
+	list-style-type: none;
+	padding-left: 10px;
+} 
+	
+#loginName {
+	width: 150px;
+	border: solid grey 1px;
+}
+	
+#password {
+	width: 150px;
+	border: solid grey 1px;
+}
+	
+
+

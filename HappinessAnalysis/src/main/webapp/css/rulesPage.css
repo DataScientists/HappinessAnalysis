@@ -1,0 +1,164 @@
+@CHARSET "UTF-8";
+	
+	.menuTab {
+	/* width:50px; */
+	height:20px;
+	border: blue 1px solid;
+	padding-left:3px;
+	padding-right:3px;
+	position:relative;
+	float:left;
+	}
+	
+	#copyright {
+	font-size:0.75em;
+	margin:5px;
+	}
+	
+	#mainScreenLeftColumn {
+	position:relative;
+	float:left;
+	width:90%;
+	}
+	
+	#mainScreenImage {
+	position:relative;
+	float:left;
+	width:30%;
+	}
+	
+	#mainScreenRightColumn {
+	position:relative;
+	float:right;
+	width:10%;
+	}
+	
+	#agentlist {
+	background-color:aliceblue;
+	padding: 10px;
+	border: solid lightgrey 1px;
+	margin-top:20px;
+
+	}
+	
+	.agentgroup {
+	background-color:lightblue;
+	}
+	
+	#mainImage {
+	width:370px;
+	padding-top:50px;
+	}
+	
+	div.questionList {
+	background:white;
+	padding-left:20px;
+	padding-bottom:5px;
+	border:1px lightgrey solid;
+	}
+	
+	div.answerList {
+	background:lightblue;
+	padding-left:20px;
+	padding-bottom:5px;
+	}
+	
+	div.question {
+	background:white;
+	width:150px;
+	}
+	
+	div.selected {
+	background:pink;
+	}
+	
+	div.highlighted {
+	border:red 2px solid;
+	}
+	
+	#levelsList {
+		display:none;
+	}
+	
+	input.nodeText {
+	background-color:lightgrey;
+	}
+	
+	div.answer {
+	background:lightblue;
+	border-style:ridge;
+	width:100px;
+	}
+	
+	div.lockOn {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 600;
+	display: block;
+	visibility: visible;
+	opacity: 0.75;
+	width: 100%;
+	height: 100%;
+	background: white;
+	}
+	
+	div.lockOff {
+	visibility: hidden;
+	}
+	
+	#ajaxForm {
+	z-index: 1100;
+	position: absolute;
+    top:30%;
+    left:35%;
+    width:450px;
+	background: white;
+	border:solid 1px lightgrey;
+	padding:50px;
+	}
+	
+	div.showAjaxForm {
+	visibility: visible;
+	}
+	
+	div.hideAjaxForm {
+	visibility: hidden;
+	}
+	
+	div.editForm {
+	box-shadow: 10px 10px 5px #888;
+	border:1px lightgrey solid;
+	}
+	
+	div.editForm div {
+	padding:10px 10px 10px 10px;
+	}
+	
+	span.formTitle {
+	display:block;
+	background-color:lightblue;
+	padding:10px 10px 10px 10px;
+	}
+	
+	span.info {
+	font-family:Arial;
+	font-size:16px;
+	color:#FDD017;	
+	}
+	
+	div.answerDiv {
+	background:#82CAFF;
+	padding-left:10px;
+	}
+	
+	div.mainLeft {
+	float:left;
+	}
+	
+	div.mainRight {
+	float:right;
+	}
+	
+
+	

@@ -1,0 +1,95 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background:white;
+
+	min-height: 100vh;
+
+	margin: 0px;
+	}
+
+header {
+	height:75px;
+
+	}
+	
+#logo {
+	width:200px;
+	/* border: black 1px solid; */
+	position:relative;
+	float:left;
+	margin: 10px;
+	}
+
+	
+#headerLogo {
+	height:48px;
+	}
+	
+	div#logout {
+	float: right;
+	margin: 5px;
+}
+
+/* Navigation Bar */
+
+nav {
+	background-color: lightgrey;
+	display: -webkit-box;
+}
+
+nav .navitem {
+	-webkit-box-pack: start;
+	-webkit-box-align: center;
+	font-family: sans-serif;
+	background-color: aliceblue;
+	padding: 2px;
+	border: solid grey 1px;
+	border-radius: 2px;
+}
+	
+#mainScreen {
+	flex: 1;
+	width:1000px
+}
+	
+	#copyright {
+	font-size:0.75em;
+	margin:5px;
+}
+	
+footer {
+	border: black 1px solid;
+	background:lightblue;
+}
+
+div#mode {
+	float: right;
+	font-family:courier;
+	border-style: ridge;
+}
+
+.dropdown:HOVER{
+	cursor: pointer !important;
+}
+
+#agentlist li{
+	cursor: move;
+	border: 1px solid transparent;
+}
+
+#agentlist li:HOVER{
+	border: 1px solid #CBDAE6;
+	border-radius: 5px;
+	background: #CBDAE6;
+}
+
+#agentbucket li{
+	border: 1px solid transparent;
+}
+
+#agentbucket li:HOVER{
+	border: 1px solid #CBDAE6;
+	border-radius: 5px;
+	background: #CBDAE6;
+}

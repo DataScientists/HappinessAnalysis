@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+#login {
+	/* background-color: lightGrey;
+	padding: 10px;
+	margin-right: 5px; */
+}
+	
+#login UL {
+	list-style-type: none;
+	padding-left: 10px;
+} 
+	
+/*#loginName {
+	width: 150px;
+	border: solid grey 1px;
+}
+	
+#password {
+	width: 150px;
+	border: solid grey 1px;
+}
+	
+#LANDINGPAGE {
+	flex:1;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+}
+*/
+#HOME #leftSection {
+	flex: 1;
+	display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+}
+
+#login li:nth-child(2) {
+	float: right;
+} 
